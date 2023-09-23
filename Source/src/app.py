@@ -12,5 +12,5 @@ SQLALCHEMY_TRACK_MODIFICATIONS = False
 SQLALCHEMY_ECHO = True
 
 bcrypt = Bcrypt(app)
-
 CORS(app, supports_credentials=True)
+db.init_app(app)
