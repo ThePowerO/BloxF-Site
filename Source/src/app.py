@@ -27,3 +27,5 @@ def CreateAccount():
 
     email = request.json["email"]
     password = request.json["password"]
+
+    user_exists = User.query.filter_by(email=email).first() is not None
