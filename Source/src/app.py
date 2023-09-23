@@ -26,3 +26,4 @@ def Main_Page():
 def CreateAccount():
 
     email = request.json["email"]
+    password = request.json["password"]
