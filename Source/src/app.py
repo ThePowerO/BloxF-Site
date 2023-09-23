@@ -34,3 +34,5 @@ def CreateAccount():
         return jsonify({'error': 'User already exists'}), 409
 
     hashed_password = bcrypt.generate_password_hash(password)
+    new_user = User(email=email, password=hashed_password)
+
