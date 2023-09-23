@@ -10,3 +10,5 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///bloxdb.db'
 
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 SQLALCHEMY_ECHO = True
+
+bcrypt = Bcrypt(app)
