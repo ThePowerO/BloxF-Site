@@ -36,4 +36,6 @@ def CreateAccount():
     hashed_password = bcrypt.generate_password_hash(password)
     new_user = User(email=email, password=hashed_password)
     db.session.add(new_user)
+    db.session.commit()
+
 
