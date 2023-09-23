@@ -25,3 +25,4 @@ def Main_Page():
 @app.route('/CreateAccount', methods=["POST"])
 def CreateAccount():
 
+    email = request.json["email"]
