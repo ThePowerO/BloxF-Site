@@ -7,3 +7,5 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'famlkn1nof20hfsaj109hg0islxc'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///bloxdb.db'
+
+SQLALCHEMY_TRACK_MODIFICATIONS = False
