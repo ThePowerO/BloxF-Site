@@ -20,3 +20,4 @@ with app.app_context():
 
 @app.route('/')
 def Main_Page():
+    return "<p>Test</p>"
