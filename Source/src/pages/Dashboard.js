@@ -8,7 +8,7 @@ export function Dashboard() {
     return (
         <>
         <aside className={Style.header}>
-            <li>
+            <section className={Style.mainbar}>
                 <Link to="/">Main Page</Link>
             </li>
         </ul>
