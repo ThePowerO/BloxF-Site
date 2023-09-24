@@ -17,7 +17,9 @@ export function Dashboard() {
                     </Link>
                     <Link className={Style.config_links} to="/">
                         <i className="bi bi-clipboard2-data"></i>
+                    </Link>
 
+        
 
         
 
