@@ -25,7 +25,7 @@ export function Dashboard() {
                         <i className="bi bi-translate"></i>
                     </Link>
                 </div>
-
+            </section>
         
 
         
