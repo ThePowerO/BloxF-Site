@@ -4,12 +4,10 @@ import ProfileImage from "../img/channels4_profile.png";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
-
-
 export function Dashboard() {
     return (
         <>
-        <ul>
+        <aside className={Style.header}>
             <li>
                 <Link to="/">Main Page</Link>
             </li>
