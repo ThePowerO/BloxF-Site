@@ -13,6 +13,11 @@ export function Dashboard() {
                 <h1>Nickname</h1>
                 <div className={Style.configurations}>
                     <Link className={Style.config_links} to="/">
+                        <i className="bi bi-person-fill"></i>
+
+
+        
+
         </>
     )
 }
