@@ -15,6 +15,7 @@ export function Dashboard() {
                     <Link className={Style.config_links} to="/">
                         <i className="bi bi-person-fill"></i>
                     </Link>
+                    <Link className={Style.config_links} to="/">
 
 
         
