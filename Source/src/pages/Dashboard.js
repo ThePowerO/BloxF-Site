@@ -9,7 +9,7 @@ export function Dashboard() {
         <>
         <aside className={Style.header}>
             <section className={Style.mainbar}>
-                <Link to="/">Main Page</Link>
+                <img src={ProfileImage} alt="User's Profile IMG" />
             </li>
         </ul>
         <h1>Dashboard</h1>
