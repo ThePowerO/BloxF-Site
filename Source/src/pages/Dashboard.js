@@ -11,7 +11,7 @@ export function Dashboard() {
             <section className={Style.mainbar}>
                 <img src={ProfileImage} alt="User's Profile IMG" />
                 <h1>Nickname</h1>
-        </ul>
+                <div className={Style.configurations}>
         <h1>Dashboard</h1>
         </>
     )
