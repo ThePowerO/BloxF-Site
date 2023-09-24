@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Style from './Dashboard.module.css'
 import ProfileImage from "../img/channels4_profile.png";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 
