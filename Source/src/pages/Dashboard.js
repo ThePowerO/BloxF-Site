@@ -12,7 +12,7 @@ export function Dashboard() {
                 <img src={ProfileImage} alt="User's Profile IMG" />
                 <h1>Nickname</h1>
                 <div className={Style.configurations}>
-        <h1>Dashboard</h1>
+                    <Link className={Style.config_links} to="/">
         </>
     )
 }
